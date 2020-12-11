@@ -24,7 +24,7 @@ function Title() {
             style={{ color: "white" }}
           >
             <span className="icon is-large">
-              <i class="fab fa-linkedin fa-2x"></i>
+              <i className="fab fa-linkedin fa-2x"></i>
             </span>
           </a>
           <a
