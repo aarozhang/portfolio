@@ -25,7 +25,7 @@ function Degrees() {
               </h5>
             </div>
           </div>
-          <div class="media-right" style={{ color: "white" }}>
+          <div className="media-right" style={{ color: "white" }}>
             <p>2016 - 2021</p>
           </div>
         </article>
@@ -52,7 +52,7 @@ function Degrees() {
               </h5>
             </div>
           </div>
-          <div class="media-right" style={{ color: "white" }}>
+          <div className="media-right" style={{ color: "white" }}>
             <p>2016 - 2018</p>
           </div>
         </article>
