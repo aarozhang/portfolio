@@ -35,6 +35,11 @@ function Title() {
               <i className="fab fa-instagram fa-2x"></i>
             </span>
           </a>
+          <a href="mailto:aarzhang@live.unc.edu" style={{ color: "white" }}>
+            <span className="icon is-large">
+              <i className="fas fa-envelope fa-2x"></i>
+            </span>
+          </a>
         </div>
       </div>
     </section>
