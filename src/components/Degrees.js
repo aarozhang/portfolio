@@ -18,7 +18,7 @@ function Degrees() {
           <div className="media-content" style={{ color: "hsl(0, 0%, 96%)" }}>
             <div className="content">
               <h3 className="title" style={{ color: "hsl(0, 0%, 96%)" }}>
-                Univeristy of North Carolina at Chapel Hill
+                University of North Carolina at Chapel Hill
               </h3>
               <h5 className="subtitle" style={{ color: "hsl(0, 0%, 96%)" }}>
                 Bachelor of Arts in Computer Science
@@ -45,7 +45,7 @@ function Degrees() {
           <div className="media-content" style={{ color: "hsl(0, 0%, 96%)" }}>
             <div className="content">
               <h3 className="title" style={{ color: "hsl(0, 0%, 96%)" }}>
-                Univeristy of North Carolina at Chapel Hill
+                University of North Carolina at Chapel Hill
               </h3>
               <h5 className="subtitle" style={{ color: "hsl(0, 0%, 96%)" }}>
                 Minor in Music
