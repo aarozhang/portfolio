@@ -20,6 +20,14 @@ function Title() {
             </span>
           </a>
           <a
+            href="https://www.linkedin.com/in/aaron-zhang-948b79123/"
+            style={{ color: "white" }}
+          >
+            <span className="icon is-large">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </span>
+          </a>
+          <a
             href="https://www.instagram.com/aarozhang/"
             style={{ color: "white" }}
           >
