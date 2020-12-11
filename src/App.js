@@ -1,5 +1,5 @@
 import "../node_modules/bulma/css/bulma.css";
-//import "./App.css";
+import "./App.css";
 import Title from "./components/Title";
 
 function App() {
