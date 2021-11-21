@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import headshot from "./headshot2.png";
+import headshot from "./headshot3.jpg";
 
 function Title() {
     return (
