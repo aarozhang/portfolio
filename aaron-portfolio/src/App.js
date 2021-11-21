@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./components/navbar/navbar/navbar";
-import Title from "./components/navbar/title/title";
+import Navbar from "./components/Navbar/navbar";
+import Title from "./components/Title/title";
 
 function Experience() {
     return (
