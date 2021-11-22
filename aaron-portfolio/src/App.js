@@ -8,7 +8,10 @@ function App() {
         <div class="vh-auto bg-dark text-white">
             {Navbar()}
             {Title()}
-            {InfoContainer()}
+            {/*add about me section*/}
+            {InfoContainer("Experience")}
+            {InfoContainer("Education")}
+            {InfoContainer("Projects")}
         </div>
     );
 }

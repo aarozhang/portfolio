@@ -7,7 +7,7 @@ function Title() {
                 <div class="col-10 col-sm-8 col-lg-6">
                     <img
                         src={headshot}
-                        class="d-block mx-lg-auto img-fluid rounded-circle"
+                        class="d-block mx-lg-auto img-fluid rounded-circle shadow-lg"
                         alt="Headshot"
                         width="450"
                         height="250"

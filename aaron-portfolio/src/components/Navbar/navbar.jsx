@@ -28,6 +28,11 @@ function Navbar () {
                             </a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">
+                                About me
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="#">
                                 Experience
                             </a>

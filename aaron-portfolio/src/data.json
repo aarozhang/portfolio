@@ -1,0 +1,39 @@
+{
+    "Experience": [
+        {
+            "company": "Vanguard",
+            "role": "Application Engineer I",
+            "summary": "Some text."
+        },
+        {
+            "company": "UNC Grounds",
+            "role": "Frontend Engineer",
+            "summary": "Some text."
+        },
+        {
+            "company": "RENCI",
+            "role": "Project Manager",
+            "summary": "Some text."
+        },
+        {
+            "company": "Second Main Phase",
+            "role": "Software Engineer Intern",
+            "summary": "Some text."
+        }
+    ],
+    "Education": [
+        {
+            "school": "UNC Chapel Hill",
+            "degree": "B.A. in Computer Science",
+            "summary": "Some text."
+        },
+        {
+            "school": "UNC Chapel Hill",
+            "degree": "Minor in Music",
+            "summary": "Some text."
+        }
+    ],
+    "Projects": []
+
+    
+}
