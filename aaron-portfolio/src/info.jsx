@@ -1,4 +1,5 @@
 let info = {
+    "About Me": "Here is a little blurb about me!",
     "Experience": [
         {
             "title": "Vanguard",
