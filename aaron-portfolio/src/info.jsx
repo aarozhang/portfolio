@@ -34,7 +34,19 @@ let info = {
             "summary": "Some text."
         }
     ],
-    "Projects": []    
+    "Projects": [
+        {
+            "title": "Fall Guys Stats",
+            "subtitle": "A Game Stat Tracker",
+            "summary": "Some text."
+        },
+        {
+            "title": "UNC Chapel Hill",
+            "subtitle": "Minor in Music",
+            "summary": "Some text."
+        }
+    ],
+    "Contact": []     
 }
 
 export default info;

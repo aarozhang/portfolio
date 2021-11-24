@@ -28,13 +28,8 @@ function Navbar () {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#About Me">
+                            <a class="nav-link" aria-current="page" href="#AboutMe">
                                 About me
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#Experience">
-                                Experience
                             </a>
                         </li>
                         <li class="nav-item">
@@ -43,13 +38,14 @@ function Navbar () {
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#Projects">
-                                Projects
+                            <a class="nav-link" href="#Experience">
+                                Experience
                             </a>
                         </li>
+
                         <li class="nav-item">
-                            <a class="nav-link" href="#Contact">
-                                Contact
+                            <a class="nav-link" href="#Projects">
+                                Projects
                             </a>
                         </li>
                     </ul>
