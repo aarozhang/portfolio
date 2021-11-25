@@ -26,7 +26,7 @@ let info = {
         {
             "title": "UNC Chapel Hill",
             "subtitle": "B.A. in Computer Science",
-            "summary": "I dabbled in biology for two years before realizing that I was severely unhappy. In my junior year, I decided to confront the irritation of choosing my parent's preferred career path, Computer Science. Fortunately, since then, I've refound my inherent love of building. Switching to CS was probably the most pivotal decision of my young adult life, so I am excited to see where it takes me."
+            "summary": "I dabbled in biology for two years before realizing that I was severely unhappy. In my junior year, I decided to confront the irritation of choosing my parent's preferred career path, Computer Science. Fortunately, since then, I've refound my inherent love of building. Switching to CS was probably the most pivotal decision of my early adult life, so I am excited to see where it takes me."
         },
         {
             "title": "UNC Chapel Hill",
@@ -37,8 +37,8 @@ let info = {
     "Projects": [
         {
             "title": "Fall Guys Stats",
-            "subtitle": "A Game Stat Tracker",
-            "summary": "Some text."
+            "subtitle": "A Video Game Stat Tracker",
+            "summary": "FGS was my first web development project built using jQuery and Firebase. It was part of my web dev class and I worked on it with 3 close friends. 'Fall Guys' as a game was very popular at the time so we used the hype as a reason to build the site. Since then, the game has died down but the experience of building a multi-page data displaying website provided great experience, setting me up for later projects."
         },
         {
             "title": "UNC Chapel Hill",
