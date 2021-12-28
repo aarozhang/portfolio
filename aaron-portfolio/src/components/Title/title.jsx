@@ -9,8 +9,8 @@ function Title() {
 						src={headshot}
 						class="d-block mx-lg-auto img-fluid rounded-circle"
 						alt="Headshot"
-						width="350"
-						height="150"
+						width="400"
+						height="200"
 						loading="lazy"
 					></img>
 				</div>
