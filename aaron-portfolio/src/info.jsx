@@ -1,5 +1,6 @@
 let info = {
-	"About Me": "Here is a little blurb about me!",
+	"About Me":
+		"I am a software engineer with over two years of experience in frontend and microservice API development. I received my Bachelors in Computer Science from UNC Chapel Hill. I also have a small background in biological sciences and music. Since graduating, my focus has been to learn anything and everything related to full-stack web development.",
 	Experience: [
 		{
 			title: "Vanguard",
