@@ -10,7 +10,7 @@ function Title() {
 						class="d-block mx-lg-auto img-fluid rounded-circle"
 						alt="Headshot"
 						width="400"
-						height="200"
+						height="175"
 						loading="lazy"
 					></img>
 				</div>

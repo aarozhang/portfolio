@@ -42,15 +42,15 @@ let info = {
 	],
 	Projects: [
 		{
+			title: "Personal Portfolio",
+			subtitle: "A space to share my journey",
+			summary: "You're looking at it! Thanks for stopping by!",
+		},
+		{
 			title: "Fall Guys Stats",
 			subtitle: "A Video Game Stat Tracker",
 			summary:
 				"FGS was my first web app built with a team of close friends using jQuery and Firebase. The site has currently been taken down but it provided a lot of great lessons on web development that have greatly impacted me as a dev.",
-		},
-		{
-			title: "UNC Chapel Hill",
-			subtitle: "Minor in Music",
-			summary: "Some text.",
 		},
 	],
 	Contact: [],
