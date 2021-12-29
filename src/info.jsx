@@ -1,6 +1,6 @@
 let info = {
 	"About Me":
-		"I am a software engineer with over two years of experience in frontend and microservice API development. I received my Bachelors in Computer Science from UNC Chapel Hill. I also have a small background in biological sciences and music. Since graduating, my focus has been to learn anything and everything related to full-stack web development.",
+		"I am a software engineer with experience in frontend and microservice API development. I received my Bachelors in Computer Science from UNC Chapel Hill. I also have a small background in biological sciences and music. Since graduating, my focus has been to learn anything and everything related to full-stack web development.",
 	Experience: [
 		{
 			title: "Vanguard",
@@ -32,7 +32,7 @@ let info = {
 			title: "UNC Chapel Hill",
 			subtitle: "B.A. in Computer Science",
 			summary:
-				"CS was my main area of study. However, before that, I spent two grueling years in Biology with my intentions of entering medicine. Although I ended up making a switch, my interest in life sciences remains. Perhaps one day I can find a way to tie in both fields of study.",
+				"CS was my main field of study and has led me to my current career as a software engineer. However, before that, I spent two years in Biology with intentions of entering medicine. Although I ended up switching, my interest in life sciences remains. Perhaps one day I can find a way to tie in both fields of study.",
 		},
 		{
 			title: "UNC Chapel Hill",
