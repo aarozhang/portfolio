@@ -1,6 +1,16 @@
 import { motion } from "framer-motion";
 
 function Navbar() {
+	const navbarMotion = {
+		hidden: { opacity: 0 },
+		show: { opacity: 1, transition: { staggerChildren: 0.2 } },
+	};
+
+	const navbarItemMotion = {
+		hidden: { y: "-35vh" },
+		show: { y: 0, transition: { type: "spring", stiffness: 95 } },
+	};
+
 	return (
 		<nav
 			class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
@@ -23,15 +33,18 @@ function Navbar() {
 					class="collapse navbar-collapse justify-content-md-center"
 					id="navbars"
 				>
-					<ul class="navbar-nav">
+					<motion.ul
+						class="navbar-nav"
+						variants={navbarMotion}
+						initial="hidden"
+						animate="show"
+					>
 						<li class="nav-item">
 							<motion.a
 								class="nav-link active"
 								aria-current="page"
 								href="#Welcome"
-								initial={{ y: "-35vh" }}
-								animate={{ y: 0 }}
-								transition={{ type: "spring", stiffness: 90 }}
+								variants={navbarItemMotion}
 							>
 								Welcome
 							</motion.a>
@@ -41,13 +54,7 @@ function Navbar() {
 								class="nav-link"
 								aria-current="page"
 								href="#AboutMe"
-								initial={{ y: "-35vh" }}
-								animate={{ y: 0 }}
-								transition={{
-									type: "spring",
-									stiffness: 90,
-									delay: 0.2,
-								}}
+								variants={navbarItemMotion}
 							>
 								About me
 							</motion.a>
@@ -56,13 +63,7 @@ function Navbar() {
 							<motion.a
 								class="nav-link"
 								href="#Education"
-								initial={{ y: "-35vh" }}
-								animate={{ y: 0 }}
-								transition={{
-									type: "spring",
-									stiffness: 90,
-									delay: 0.4,
-								}}
+								variants={navbarItemMotion}
 							>
 								Education
 							</motion.a>
@@ -71,13 +72,7 @@ function Navbar() {
 							<motion.a
 								class="nav-link"
 								href="#Experience"
-								initial={{ y: "-35vh" }}
-								animate={{ y: 0 }}
-								transition={{
-									type: "spring",
-									stiffness: 90,
-									delay: 0.6,
-								}}
+								variants={navbarItemMotion}
 							>
 								Experience
 							</motion.a>
@@ -87,18 +82,12 @@ function Navbar() {
 							<motion.a
 								class="nav-link"
 								href="#Projects"
-								initial={{ y: "-35vh" }}
-								animate={{ y: 0 }}
-								transition={{
-									type: "spring",
-									stiffness: 90,
-									delay: 0.8,
-								}}
+								variants={navbarItemMotion}
 							>
 								Projects
 							</motion.a>
 						</li>
-					</ul>
+					</motion.ul>
 				</div>
 			</div>
 		</nav>
