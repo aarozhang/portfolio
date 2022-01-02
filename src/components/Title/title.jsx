@@ -10,7 +10,7 @@ function Title() {
 				animate={{ opacity: 1 }}
 				transition={{ delay: 1.2, duration: 2 }}
 			>
-				<motion.div class="col-10 col-sm-8 col-lg-6">
+				<div class="col-10 col-sm-8 col-lg-6">
 					<img
 						src={headshot}
 						class="d-block mx-lg-auto img-fluid rounded-circle"
@@ -19,9 +19,9 @@ function Title() {
 						height="175"
 						loading="lazy"
 					></img>
-				</motion.div>
+				</div>
 				<div class="col-lg-6">
-					<h1 class="display-2 fw-bold lh-1 mb-3">Hi! I'm Aaron.</h1>
+					<h1 class="display-1 fw-bold lh-1 mb-3">Hi, I'm Aaron.</h1>
 					<p class="lead">Software engineer from Charlotte.</p>
 				</div>
 			</motion.div>
