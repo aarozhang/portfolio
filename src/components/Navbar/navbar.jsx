@@ -25,6 +25,7 @@ function Navbar() {
 					aria-controls="navbars"
 					aria-expanded="false"
 					aria-label="Toggle navigation"
+					id="burgerMenu"
 				>
 					<span class="navbar-toggler-icon"></span>
 				</button>
