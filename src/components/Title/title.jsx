@@ -14,7 +14,7 @@ function Title() {
 					class="col-10 col-sm-8 col-lg-6"
 					initial={{ scale: 0 }}
 					animate={{ scale: 1 }}
-					transition={{ delay: 2.6, duration: 1 }}
+					transition={{ delay: 2.2, duration: 1 }}
 				>
 					<img
 						src={headshot}
@@ -28,11 +28,11 @@ function Title() {
 				<div class="col-lg-6">
 					<motion.h1
 						class="display-1 fw-bold lh-1 mb-3"
-						initial={{ x: "-75vw" }}
+						initial={{ x: "-100vw" }}
 						animate={{ x: 0 }}
 						transition={{
 							delay: 1.6,
-							stiffness: 150,
+							bounce: 0.5,
 							type: "spring",
 						}}
 					>
@@ -40,11 +40,11 @@ function Title() {
 					</motion.h1>
 					<motion.p
 						class="lead"
-						initial={{ x: "-75vw" }}
+						initial={{ x: "-100vw" }}
 						animate={{ x: 0 }}
 						transition={{
 							delay: 1.8,
-							stiffness: 150,
+							bounce: 0.5,
 							type: "spring",
 						}}
 					>
