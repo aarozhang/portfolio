@@ -6,11 +6,16 @@ function Title() {
 		<div class="container col-xxl-8 px-4 py-5 mt-5 mb-2" id="Welcome">
 			<motion.div
 				class="row flex-lg-row-reverse align-items-center g-5 py-5"
-				initial={{ opacity: 0 }}
-				animate={{ opacity: 1 }}
-				transition={{ delay: 2, duration: 2 }}
+				// initial={{ opacity: 0 }}
+				// animate={{ opacity: 1 }}
+				// transition={{ delay: 2, duration: 2 }}
 			>
-				<div class="col-10 col-sm-8 col-lg-6">
+				<motion.div
+					class="col-10 col-sm-8 col-lg-6"
+					initial={{ scale: 0 }}
+					animate={{ scale: 1 }}
+					transition={{ delay: 2.2, duration: 0.8 }}
+				>
 					<img
 						src={headshot}
 						class="d-block mx-lg-auto img-fluid rounded-circle"
@@ -19,10 +24,24 @@ function Title() {
 						height="175"
 						loading="lazy"
 					></img>
-				</div>
+				</motion.div>
 				<div class="col-lg-6">
-					<h1 class="display-1 fw-bold lh-1 mb-3">Hi, I'm Aaron.</h1>
-					<p class="lead">Software engineer from Charlotte.</p>
+					<motion.h1
+						class="display-1 fw-bold lh-1 mb-3"
+						initial={{ x: "-50vw" }}
+						animate={{ x: 0 }}
+						transition={{ delay: 1.6 }}
+					>
+						Hi, I'm Aaron.
+					</motion.h1>
+					<motion.p
+						class="lead"
+						initial={{ x: "-50vw" }}
+						animate={{ x: 0 }}
+						transition={{ delay: 1.8 }}
+					>
+						Software engineer from Charlotte.
+					</motion.p>
 				</div>
 			</motion.div>
 		</div>
