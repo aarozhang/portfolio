@@ -11,6 +11,9 @@ function Feature(organization, role, summary) {
 				whileHover={{ scale: 1.1 }}
 				whileTap={{ scale: 0.9 }}
 				onClick={() => null}
+				type="button"
+				data-bs-toggle="modal"
+				data-bs-target="#exampleModalLong"
 			>
 				See details
 			</motion.button>
