@@ -4,17 +4,12 @@ import { motion } from "framer-motion";
 function Title() {
 	return (
 		<div class="container col-xxl-8 px-4 py-5 mt-5 mb-2" id="Welcome">
-			<motion.div
-				class="row flex-lg-row-reverse align-items-center g-5 py-5"
-				// initial={{ opacity: 0 }}
-				// animate={{ opacity: 1 }}
-				// transition={{ delay: 2, duration: 2 }}
-			>
+			<motion.div class="row flex-lg-row-reverse align-items-center g-5 py-5">
 				<motion.div
 					class="col-10 col-sm-8 col-lg-6"
 					initial={{ scale: 0 }}
 					animate={{ scale: 1 }}
-					transition={{ delay: 2.2, duration: 1 }}
+					transition={{ delay: 2.2, duration: 0.5 }}
 				>
 					<img
 						src={headshot}
@@ -31,9 +26,9 @@ function Title() {
 						initial={{ x: "-100vw" }}
 						animate={{ x: 0 }}
 						transition={{
-							delay: 1.6,
-							bounce: 0.5,
-							type: "spring",
+							delay: 1.4,
+							duration: 0.5,
+							type: "tween",
 						}}
 					>
 						Hi, I'm Aaron.
@@ -43,9 +38,9 @@ function Title() {
 						initial={{ x: "-100vw" }}
 						animate={{ x: 0 }}
 						transition={{
-							delay: 1.8,
-							bounce: 0.5,
-							type: "spring",
+							delay: 1.6,
+							type: "tween",
+							duration: 0.5,
 						}}
 					>
 						Software engineer from Charlotte.
