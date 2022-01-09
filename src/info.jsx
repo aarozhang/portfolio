@@ -29,14 +29,14 @@ let info = {
 	],
 	Education: [
 		{
-			title: "UNC Chapel Hill",
-			subtitle: "B.A. in Computer Science",
+			title: "Bachelor of Arts in Computer Science",
+			subtitle: "UNC Chapel Hill",
 			summary:
 				"CS was my main field of study and has led me to my current career as a software engineer. However, before that, I spent two years in Biology with intentions of entering medicine. Although I ended up switching, my interest in life sciences remains. Perhaps one day I can find a way to tie in both fields of study.",
 		},
 		{
-			title: "UNC Chapel Hill",
-			subtitle: "Minor in Music",
+			title: "Minor in Music",
+			subtitle: "UNC Chapel Hill",
 			summary:
 				"Music was my greatest passion in highschool. I came into university wanting to explore my musical path as much as possible. The Music Minor was a nice introduction to the study of music and what a life in music would entail. Ultimately, I decided it wasn't for me, but I hope to keep music in my life for as long as I can.",
 		},

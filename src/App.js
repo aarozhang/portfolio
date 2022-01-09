@@ -3,7 +3,6 @@ import Title from "./components/Title/title";
 import InfoContainer from "./components/InfoContainer/infoContainer";
 import info from "./info";
 import AboutMe from "./components/AboutMe/aboutMe";
-import Modal from "./components/Modal/modal";
 
 function App() {
 	return (
@@ -16,7 +15,6 @@ function App() {
 				{InfoContainer("Experience", info.Experience)}
 				{InfoContainer("Projects", info.Projects)}
 			</div>
-			{Modal()}
 		</div>
 	);
 }

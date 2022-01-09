@@ -7,7 +7,7 @@ let modalInfo = {
 		"Wrote support documents detailing resources and proper emergency procedures to handle service interruptions.",
 		"Established AWS multi-region availability for the team’s four APIs, drastically improving service resiliency.",
 	],
-	"UNC Grounds Department": [
+	"UNC Grounds": [
 		"Developed in a 4-man team to deliver a training website containing lesson delivery, test taking, and student management features.",
 		"Built the student, login, and landing webpages while also making major contributions to the instructor page.",
 		"Designed the project's NoSQL database schema.",
@@ -22,7 +22,7 @@ let modalInfo = {
 		"Automated two data reports to send medical provider activity every morning, increasing management efficiency.",
 		"Updated UI features to provide a more convenient user experience.",
 	],
-	"B.A. in Computer Science": [
+	"Bachelor of Arts in Computer Science": [
 		"Object Oriented Programming",
 		"Design Patterns",
 		"Data Structures",
@@ -44,6 +44,8 @@ let modalInfo = {
 		"Fundamentals of Music I",
 		"Music and Politics",
 	],
+	"Personal Portfolio": [],
+	"Fall Guys Stats": [],
 };
 
 export default modalInfo;
