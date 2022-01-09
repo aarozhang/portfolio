@@ -8,6 +8,7 @@ function Modal(title, content) {
 			role="dialog"
 			aria-labelledby={id}
 			aria-hidden="true"
+			style={{ color: "black" }}
 		>
 			<div class="modal-dialog" role="document">
 				<div class="modal-content">
@@ -17,7 +18,7 @@ function Modal(title, content) {
 						</h5>
 					</div>
 					<div class="modal-body">
-						<ul class="list-group">{content}</ul>
+						<ul class="list-group list-group-flush">{content}</ul>
 					</div>
 					<div class="modal-footer">
 						<button
