@@ -44,8 +44,8 @@ let modalInfo = {
 		"Fundamentals of Music I",
 		"Music and Politics",
 	],
-	"Personal Portfolio": [],
-	"Fall Guys Stats": [],
+	"Personal Portfolio": ["Built using React, Bootstrap, and Framer-motion"],
+	"Fall Guys Stats": ["Built using jQuery, Bulma, and Firebase"],
 };
 
 export default modalInfo;

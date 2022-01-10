@@ -6,7 +6,14 @@ function Feature(title, subtitle, summary) {
 	const modalContent = () => {
 		let render = [];
 		modalInfo[title].forEach((text) =>
-			render.push(<li class="list-group-item">{text}</li>)
+			render.push(
+				<li
+					class="list-group-item"
+					style={{ backgroundColor: "#FFFFF7" }}
+				>
+					{text}
+				</li>
+			)
 		);
 
 		return render;

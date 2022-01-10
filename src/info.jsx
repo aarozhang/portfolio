@@ -6,7 +6,7 @@ let info = {
 			title: "Vanguard",
 			subtitle: "Application Engineer I",
 			summary:
-				"Vanguard is my first and current professional role out of school. My team and I own four API Microservices which we are currently working to bring to production.",
+				"Vanguard is my first and current professional role out of school. My team and I own four API Microservices which we are currently in the process of upgrading and modernizing",
 		},
 		{
 			title: "UNC Grounds",
@@ -18,13 +18,13 @@ let info = {
 			title: "RENCI",
 			subtitle: "Project Manager",
 			summary:
-				"I assisted my team as a project manager to deliver an automated meeting notes distribution service. This was my first opportunity to own and deliver a product in a self-driven development team.",
+				"My team and I created an automated meeting notes distributor through Google Add-ons. This was my first opportunity to own and deliver a product in a self-driven development team.",
 		},
 		{
 			title: "Second Main Phase",
 			subtitle: "Software Engineer Intern",
 			summary:
-				"SMP was my first introduction to a professional development environment. I was able to push production code as well as develop internal resources in support of the product.",
+				"SMP was my first introduction to a professional development environment. I was able to push production code as well as develop internal supporting resources.",
 		},
 	],
 	Education: [
@@ -32,7 +32,7 @@ let info = {
 			title: "Bachelor of Arts in Computer Science",
 			subtitle: "UNC Chapel Hill",
 			summary:
-				"CS was my main field of study and has led me to my current career as a software engineer. However, before that, I spent two years in Biology with intentions of entering medicine. Although I ended up switching, my interest in life sciences remains. Perhaps one day I can find a way to tie in both fields of study.",
+				"CS was my main field of study and has led to my current career as a software engineer. Before that, I spent two years in Biology with intentions of entering medicine. Although I ended up switching, my interest in life sciences remains. Perhaps one day I can find a way to tie in both fields of study.",
 		},
 		{
 			title: "Minor in Music",
@@ -51,7 +51,7 @@ let info = {
 			title: "Fall Guys Stats",
 			subtitle: "A Video Game Stat Tracker",
 			summary:
-				"FGS was my first web app built with a team of close friends using jQuery and Firebase. The site has currently been taken down but it provided a lot of great lessons on web development that have greatly impacted me as a dev.",
+				"FGS was my first web app, built with a team of close friends for a final class project. The site has currently been taken down, but it provided a lot of great lessons on web development that have greatly impacted me as a dev.",
 		},
 	],
 	Contact: [],

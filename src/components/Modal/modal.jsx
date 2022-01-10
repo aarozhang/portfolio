@@ -11,7 +11,10 @@ function Modal(title, content) {
 			style={{ color: "black" }}
 		>
 			<div class="modal-dialog" role="document">
-				<div class="modal-content">
+				<div
+					class="modal-content"
+					style={{ backgroundColor: "#FFFFF7" }}
+				>
 					<div class="modal-header">
 						<h5 class="modal-title" id="ModalLongTitle">
 							{title}
