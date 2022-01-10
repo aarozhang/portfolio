@@ -25,3 +25,15 @@ button {
 #burgerMenu {
 	margin-left: 10px;
 }
+
+.modal {
+	color: black;
+}
+
+.modal-content {
+	background-color: #fffff7;
+}
+
+.list-group-item {
+	background-color: #fffff7;
+}

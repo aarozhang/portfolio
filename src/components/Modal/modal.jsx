@@ -8,13 +8,9 @@ function Modal(title, content) {
 			role="dialog"
 			aria-labelledby={id}
 			aria-hidden="true"
-			style={{ color: "black" }}
 		>
 			<div class="modal-dialog" role="document">
-				<div
-					class="modal-content"
-					style={{ backgroundColor: "#FFFFF7" }}
-				>
+				<div class="modal-content">
 					<div class="modal-header">
 						<h5 class="modal-title" id="ModalLongTitle">
 							{title}
