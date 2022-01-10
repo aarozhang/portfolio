@@ -9,7 +9,7 @@ function Title() {
 					class="col-10 col-sm-8 col-lg-6"
 					initial={{ scale: 0 }}
 					animate={{ scale: 1 }}
-					transition={{ delay: 2, duration: 0.5 }}
+					transition={{ delay: 1.6, duration: 0.4 }}
 				>
 					<img
 						src={headshot}
@@ -26,7 +26,7 @@ function Title() {
 						initial={{ x: "-100vw" }}
 						animate={{ x: 0 }}
 						transition={{
-							delay: 1.2,
+							delay: 1,
 							duration: 0.5,
 							type: "tween",
 						}}
@@ -38,7 +38,7 @@ function Title() {
 						initial={{ x: "-100vw" }}
 						animate={{ x: 0 }}
 						transition={{
-							delay: 1.4,
+							delay: 1.2,
 							type: "tween",
 							duration: 0.5,
 						}}
