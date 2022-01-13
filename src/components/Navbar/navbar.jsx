@@ -8,7 +8,7 @@ function Navbar() {
 
 	const navbarItemMotion = {
 		hidden: { y: "-35vh" },
-		show: { y: 0, transition: { type: "spring", stiffness: 95 } },
+		show: { y: 0, transition: { type: "spring", bounce: 0.4 } },
 	};
 
 	return (

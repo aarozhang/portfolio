@@ -8,7 +8,12 @@ function Title() {
 				class="row flex-lg-row-reverse align-items-center g-5 py-5"
 				initial={{ scale: 0 }}
 				animate={{ scale: 1 }}
-				transition={{ delay: 1.6, type: "spring", bounce: 0.5 }}
+				transition={{
+					delay: 1.6,
+					type: "spring",
+					bounce: 0.5,
+					duration: 0.8,
+				}}
 			>
 				<div class="col-10 col-sm-8 col-lg-6">
 					<img
