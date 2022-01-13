@@ -1,12 +1,12 @@
 let info = {
 	"About Me":
-		"I am a software engineer with experience in frontend and microservice API development. I received my Bachelors in Computer Science from UNC Chapel Hill. I also have a small background in biological sciences and music. Since graduating, my focus has been to learn anything and everything related to full-stack web development.",
+		"I am a software engineer with experience in frontend and API microservice development. I received my Bachelors in Computer Science from UNC Chapel Hill. I also have a small background in biological sciences and music. Since graduating, my focus has been to learn anything and everything related to full-stack web development.",
 	Experience: [
 		{
 			title: "Vanguard",
 			subtitle: "Application Engineer I",
 			summary:
-				"Vanguard is my first and current professional role out of school. My team and I own four API Microservices which we are currently in the process of upgrading and modernizing",
+				"Vanguard is my first and current professional role out of school. My team and I own four API Microservices which we are currently in the process of modernizing.",
 		},
 		{
 			title: "UNC Grounds",
