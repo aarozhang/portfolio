@@ -16,15 +16,13 @@ function Feature(title, subtitle, summary) {
 
 	return (
 		<div>
-			<motion.div class="feature col" whileHover={{ scale: 1.05 }}>
+			<motion.div class="feature col">
 				<div class="feature-icon bg-primary bg-gradient"></div>
 				<h2>{title}</h2>
 				<p class="lead">{subtitle}</p>
 				<p>{summary}</p>
 				<motion.button
 					whileHover={{
-						color: "black",
-						backgroundColor: "white",
 						scale: 1.1,
 					}}
 					whileTap={{ scale: 0.9 }}
