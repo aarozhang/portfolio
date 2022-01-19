@@ -44,20 +44,10 @@ function Navbar() {
 							<motion.a
 								class="nav-link active"
 								aria-current="page"
-								href="#Welcome"
-								variants={navbarItemMotion}
-							>
-								Welcome
-							</motion.a>
-						</li>
-						<li class="nav-item">
-							<motion.a
-								class="nav-link"
-								aria-current="page"
 								href="#AboutMe"
 								variants={navbarItemMotion}
 							>
-								About me
+								About Me
 							</motion.a>
 						</li>
 						<li class="nav-item">
