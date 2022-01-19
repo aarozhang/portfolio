@@ -3,14 +3,13 @@ import { motion } from "framer-motion";
 
 function Title() {
 	return (
-		<div class="container col-xxl-10 px-4 py-5 mt-5 mb-2" id="Welcome">
+		<div class="container col-xxl-10 px-4 py-4 mt-5 mb-2" id="Welcome">
 			<motion.div
 				class="row flex-lg-row-reverse align-items-center g-5 py-5"
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 1 }}
 				transition={{
-					delay: 1.4,
-					duration: 1,
+					duration: 2,
 				}}
 			>
 				<div class="col-10 col-sm-8 col-lg-6">
