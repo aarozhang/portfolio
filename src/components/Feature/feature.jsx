@@ -16,7 +16,7 @@ function Feature(title, subtitle, summary) {
 
 	return (
 		<div>
-			<motion.div class="feature col">
+			<motion.div class="feature col my-3">
 				<div class="feature-icon bg-primary bg-gradient"></div>
 				<h2>{title}</h2>
 				<p class="lead">{subtitle}</p>

@@ -3,7 +3,10 @@ import { motion } from "framer-motion";
 function Navbar() {
 	const navbarMotion = {
 		hidden: { opacity: 0 },
-		show: { opacity: 1, transition: { staggerChildren: 0.2 } },
+		show: {
+			opacity: 1,
+			transition: { staggerChildren: 0.2, delayChildren: 1.5 },
+		},
 	};
 
 	const navbarItemMotion = {
