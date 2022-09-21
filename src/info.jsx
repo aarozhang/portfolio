@@ -1,56 +1,55 @@
 let info = {
 	"About Me":
-		"I am a software engineer from Charlotte, NC. My experience includes frontend and API microservice development. I received my Bachelors in Computer Science from UNC Chapel Hill. Since graduating, my focus has been to learn anything and everything related to full-stack engineering. My goal is to one day move to the Bay Area and join a start-up. In my free time, I enjoy traveling and taking pretty photos.",
+		"I am a software engineer from Charlotte, NC with a passion for coding and creating astounding products. I received my Bachelors in Computer Science from UNC Chapel Hill. My early experience was mainly in web development where I built various web apps for clients. Since graduating, I have worked at established financial institutes with a shift in role towards cloud and backend engineering. My goal is to one day move to the SF Bay Area and join a start-up to be on the cutting edge of innovation. In my free time, I enjoy building websites, traveling and taking pretty photos.",
 	Experience: [
 		{
 			title: "Capital One",
-			subtitle: "Senior Associate Software Engineer",
-			summary: "What's in YOUR wallet?",
+			subtitle: "I lost my wallet...",
+			summary: "",
 		},
 		{
 			title: "Vanguard",
-			subtitle: "Application Engineer I",
-			summary: "My first job :)",
+			subtitle: "My First Job Whoo!",
+			summary: "",
 		},
 		{
 			title: "Second Main Phase",
-			subtitle: "Software Engineer Intern",
-			summary: "AKA coffee guy.",
+			subtitle: "The Internship",
+			summary: "",
 		},
 	],
 	Education: [
 		{
-			title: "B.A. in Computer Science",
+			title: "Bachelor of Arts in Computer Science",
 			subtitle: "UNC Chapel Hill",
-			summary:
-				"TLDR: two years of biology before panicking and switching to CS.",
+			summary: "",
 		},
 		{
 			title: "Minor in Music",
 			subtitle: "UNC Chapel Hill",
-			summary: "I played the trombone!",
+			summary: "",
 		},
 	],
 	Projects: [
 		{
 			title: "Personal Portfolio",
 			subtitle: "A space to share my journey",
-			summary: "You're looking at it! Thanks for stopping by!",
+			summary: "",
 		},
 		{
 			title: "Learnscaping",
-			subtitle: "Frontend Engineer",
-			summary: "An educational web app!",
+			subtitle: "An educational web app!",
+			summary: "",
 		},
 		{
 			title: "Action Item Distributor",
-			subtitle: "Software Engineer",
-			summary: "Who doesn't want less meetings?",
+			subtitle: "Who doesn't want less meetings?",
+			summary: "",
 		},
 		{
 			title: "Fall Guys Stats",
-			subtitle: "A Video Game Stat Tracker",
-			summary: "My first web app.",
+			subtitle: "My first web app",
+			summary: "",
 		},
 	],
 	Contact: [],
