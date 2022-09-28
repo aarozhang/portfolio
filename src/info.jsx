@@ -1,6 +1,6 @@
 let info = {
 	"About Me":
-		"I am a software engineer from Charlotte, NC with a passion for coding and creating astounding products. I received my Bachelors in Computer Science from UNC Chapel Hill. My early experience was mainly in web development where I built various web apps for clients. Since graduating, I have worked at established financial institutes with a shift in role towards cloud and backend engineering. My goal is to one day move to the SF Bay Area and join a start-up to be on the cutting edge of innovation. In my free time, I enjoy building websites, traveling and taking pretty photos.",
+		"I am a software engineer from Charlotte, NC with a passion for coding and creating astounding products. I received my Bachelors in Computer Science from UNC Chapel Hill. My early experience was mainly in web development where I built custom apps for clients. Since graduating, I have worked at established financial institutes with a shift in role towards cloud and backend engineering. My goal is to one day move to the SF Bay Area and join a start-up to be on the cutting edge of innovation. In my free time, I enjoy building websites, traveling and taking pretty photos.",
 	Experience: [
 		{
 			title: "Capital One",
