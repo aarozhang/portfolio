@@ -33,7 +33,9 @@ function Title() {
 					}}
 				>
 					<h1 class="display-1 fw-bold lh-1 mb-3">Hi, I'm Aaron.</h1>
-					<p class="lead">SWE. Web Dev. Photographer. Traveler.</p>
+					<p class="lead">
+						Software Engineer. Photographer. Traveler.
+					</p>
 				</motion.div>
 			</div>
 		</div>
