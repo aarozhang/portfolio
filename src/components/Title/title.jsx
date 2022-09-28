@@ -9,7 +9,7 @@ function Title() {
 			<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
 				<motion.div
 					class="col-10 col-sm-8 col-lg-6"
-					initial={{ opacity: ani.initialOpacity, x: 100 }}
+					initial={{ opacity: ani.initialOpacity, x: 60 }}
 					animate={{ opacity: ani.animateOpacity, x: 0 }}
 					transition={{
 						duration: 1,
