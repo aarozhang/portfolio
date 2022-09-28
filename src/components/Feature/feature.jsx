@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
 import modalInfo from "../../modalInfo.jsx";
 import Modal from "../Modal/modal.jsx";
+import animationConstants from "../../constants";
 
 function Feature(title, subtitle, summary) {
+	const ani = animationConstants;
 	const modalContent = () => {
 		let render = [];
 		modalInfo[title].forEach((text) =>
@@ -16,7 +18,16 @@ function Feature(title, subtitle, summary) {
 
 	return (
 		<div>
-			<motion.div class="feature col my-3">
+			<motion.div
+				initial={{ opacity: ani.initialOpacity, y: ani.initialY }}
+				whileInView={{
+					opacity: ani.animateOpacity,
+					y: ani.animateY,
+					transition: { duration: ani.duration },
+				}}
+				viewport={{ once: true, amount: ani.viewport }}
+				class="feature col my-3"
+			>
 				<div class="feature-icon bg-primary bg-gradient"></div>
 				<h2>{title}</h2>
 				<p class="lead">{subtitle}</p>

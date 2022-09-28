@@ -1,5 +1,6 @@
 import Feature from "../Feature/feature";
 import { motion } from "framer-motion";
+import animationConstants from "../../constants";
 
 function renderFeatures(object) {
 	let renderedFeatures = [];
@@ -13,15 +14,21 @@ function renderFeatures(object) {
 }
 
 function InfoContainer(header, object) {
+	const ani = animationConstants;
 	return (
-		<motion.div
-			class="container px-4 py-5"
-			id={header}
-			initial={{ opacity: 0 }}
-			whileInView={{ opacity: 1, transition: { duration: 1 } }}
-			viewport={{ once: true, amount: 0.3 }}
-		>
-			<h2 class="pb-2 border-bottom">{header}</h2>
+		<motion.div class="container px-4 py-5" id={header}>
+			<motion.h2
+				initial={{ opacity: ani.initialOpacity, y: ani.initialY }}
+				whileInView={{
+					opacity: ani.animateOpacity,
+					y: ani.animateY,
+					transition: { duration: ani.duration },
+				}}
+				viewport={{ once: true, amount: ani.viewport }}
+				class="pb-2 border-bottom"
+			>
+				{header}
+			</motion.h2>
 			<div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
 				{renderFeatures(object)}
 			</div>
