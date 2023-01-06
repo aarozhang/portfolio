@@ -19,13 +19,13 @@ function AboutMe(header, text) {
 			</motion.h2>
 			<motion.div
 				class="row g-4 py-5 row-cols-1"
-				initial={{ opacity: 0, y: 100 }}
+				initial={{ opacity: ani.initialOpacity, y: ani.initialY }}
 				whileInView={{
-					opacity: 1,
-					y: 0,
-					transition: { duration: 0.5 },
+					opacity: ani.animateOpacity,
+					y: ani.animateY,
+					transition: { duration: ani.duration },
 				}}
-				viewport={{ once: true, amount: 0 }}
+				viewport={{ once: true, amount: ani.viewport }}
 			>
 				<motion.p class="lead">{text}</motion.p>
 			</motion.div>
