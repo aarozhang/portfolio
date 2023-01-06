@@ -1,6 +1,6 @@
 let info = {
 	"About Me":
-		"I am a software engineer from Charlotte, NC with a passion for coding and building. My early experience in web development where I built custom apps for clients. Since graduating, I have worked at financial institutes with a shift in role towards cloud and backend engineering. In my free time, I enjoy building websites, traveling and taking pretty photos.",
+		"I am a software engineer from Charlotte, NC with a passion for coding and building. My early experience was in web development where I built custom apps for clients. Since graduating, I have worked at financial institutes with a shift in role towards cloud and backend engineering. In my free time, I enjoy building websites, traveling and taking pretty photos.",
 	Experience: [
 		{
 			title: "Capital One",
