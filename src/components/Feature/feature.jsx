@@ -19,10 +19,9 @@ function Feature(title, subtitle, summary) {
 	return (
 		<div>
 			<motion.div
-				initial={{ opacity: ani.initialOpacity, y: ani.initialY }}
+				initial={{ opacity: ani.initialOpacity }}
 				whileInView={{
 					opacity: ani.animateOpacity,
-					y: ani.animateY,
 					transition: { duration: ani.duration },
 				}}
 				viewport={{ once: true, amount: ani.viewport }}

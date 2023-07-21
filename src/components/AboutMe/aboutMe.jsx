@@ -7,10 +7,9 @@ function AboutMe(header, text) {
 		<div class="container px-4 py-5" id="AboutMe">
 			<motion.h2
 				class="pb-2 border-bottom"
-				initial={{ opacity: ani.initialOpacity, y: ani.initialY }}
+				initial={{ opacity: ani.initialOpacity }}
 				whileInView={{
 					opacity: ani.animateOpacity,
-					y: ani.animateY,
 					transition: { duration: ani.duration },
 				}}
 				viewport={{ once: true, amount: ani.viewport }}
@@ -19,10 +18,9 @@ function AboutMe(header, text) {
 			</motion.h2>
 			<motion.div
 				class="row g-4 py-5 row-cols-1"
-				initial={{ opacity: ani.initialOpacity, y: ani.initialY }}
+				initial={{ opacity: ani.initialOpacity }}
 				whileInView={{
 					opacity: ani.animateOpacity,
-					y: ani.animateY,
 					transition: { duration: ani.duration },
 				}}
 				viewport={{ once: true, amount: ani.viewport }}

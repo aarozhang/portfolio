@@ -18,10 +18,9 @@ function InfoContainer(header, object) {
 	return (
 		<motion.div class="container px-4 py-5" id={header}>
 			<motion.h2
-				initial={{ opacity: ani.initialOpacity, y: ani.initialY }}
+				initial={{ opacity: ani.initialOpacity }}
 				whileInView={{
 					opacity: ani.animateOpacity,
-					y: ani.animateY,
 					transition: { duration: ani.duration },
 				}}
 				viewport={{ once: true, amount: ani.viewport }}

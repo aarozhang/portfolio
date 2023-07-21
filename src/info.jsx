@@ -1,20 +1,20 @@
 let info = {
 	"About Me":
-		"I am a software engineer from Charlotte, NC with a passion for coding and building. My early experience was in web development where I built custom apps for clients. Since graduating, I have worked at financial institutes with a shift in role towards cloud and backend engineering. In my free time, I enjoy building websites, traveling and taking pretty photos.",
+		"A tech nerd with a passion for computers since my first GameBoy. I learned to code in high school, and I currently work professionally as a software engineer building complex backend/cloud systems. I'm a hobbyist android developer and I'm passionate about leadership and mentoring.",
 	Experience: [
 		{
 			title: "Capital One",
-			subtitle: "Software Engineer II",
+			subtitle: "Software Engineer",
 			summary: "",
 		},
 		{
 			title: "Vanguard",
-			subtitle: "Application Engineer I",
+			subtitle: "Application Engineer",
 			summary: "",
 		},
 		{
 			title: "Second Main Phase",
-			subtitle: "Intern",
+			subtitle: "Software Engineer Intern",
 			summary: "",
 		},
 	],
